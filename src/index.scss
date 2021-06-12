@@ -1,0 +1,45 @@
+$color-fondo: #b2a4ff;
+$color-relleno: #c8beff;
+
+body{
+    background-color: $color-fondo;
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    margin: 2%;   
+}
+#caja{
+    background-color: $color-relleno;
+    height: 60px;
+    width: 600px;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 15px 100px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    #cajita{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        height: 25px;
+    }
+    #btn{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        height: 30px;
+    }
+}
+
+#respuesta{
+    background-color: $color-relleno;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 15px 100px;
+    width: 600px;
+}

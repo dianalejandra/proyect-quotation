@@ -2,6 +2,7 @@ $color-fondo: #b2a4ff;
 $color-relleno: #c8beff;
 
 body{
+    font-family: 'Maven Pro', sans-serif;
     background-color: $color-fondo;
     display: flex;
     text-align: center;
@@ -16,7 +17,7 @@ body{
     padding: 5%;
     border-radius: 15px 100px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
     justify-content: center;
     #cajita{
